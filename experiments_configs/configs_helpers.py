@@ -15,7 +15,7 @@ from transformers import (
     TrainingArguments,
 )
 
-from preprocessing.data_utils import *
+from preprocessing.tokenize_corpus import *
 
 import copy
     

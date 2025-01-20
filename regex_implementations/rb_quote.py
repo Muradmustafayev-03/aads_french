@@ -23,7 +23,7 @@ This script contains 2 RegEx baselines:
 
 """
 
-from preprocessing.data_utils import File, CorpusDict
+from preprocessing.tokenize_corpus import File, CorpusDict
 
 from collections import Counter
 

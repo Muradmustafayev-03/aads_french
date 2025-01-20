@@ -1,6 +1,6 @@
 from .rb_quote import *
 from evaluation_schemes.evaluation import *
-from preprocessing.data_utils import *
+from preprocessing.tokenize_corpus import *
 from results.results_utils import *
 from tqdm import tqdm
 import time

@@ -21,7 +21,7 @@ python -c 'from new_content_helpers import make_json_from_texts; make_json_from_
 
 Then, for ML models, the tokenized files need to be generated (eg. with spacy tokenization):
 ```bash
-python ../preprocessing/data_utils.py --data_dir new_content_preprocessed/new_corpus.json --output_dir new_content_preprocessed/ --do_split False --tokenizer 'spacy_tokenization'
+python ../preprocessing/tokenize_corpus.py --data_dir new_content_preprocessed/new_corpus.json --output_dir new_content_preprocessed/ --do_split False --tokenizer 'spacy_tokenization'
 ```
 
 # Run (W)DSR
